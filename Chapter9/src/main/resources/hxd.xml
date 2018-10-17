@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test">
+    <test name="getCode">
+        <classes>
+            <class name="com.couse.httpclient.cases.hxd.GetCode"/>
+        </classes>
+    </test>
+    <test name="LoginWithCode">
+        <classes>
+            <class name="com.couse.httpclient.cases.hxd.LoginWithCode"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener  class-name="com.couse.httpclient.Config.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
