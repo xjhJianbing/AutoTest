@@ -52,20 +52,6 @@ public class Login {
 
      }
 
-    @Test(description = "用户登陆失败接口")
-    public void loginFalse() throws IOException {
-        SqlSession session = DataBaseUtil.getSqlsession();
-        SysUser sysUser = session.selectOne("sys_user",2);
-        System.out.println(sysUser.toString());
-        System.out.println(TestConfig.loginUrl);
-
-        //下边的代码为写完接口的测试代码
-        Boolean result = getResult(sysUser);
-        //处理结果，就是判断返回结果是否符合预期
-        assertEquals(result,Boolean.TRUE);
-
-    }
-
 
     private Boolean getResult(SysUser sysUser) throws IOException {
         //下边的代码为接口测试代码
