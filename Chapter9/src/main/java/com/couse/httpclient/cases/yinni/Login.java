@@ -49,7 +49,7 @@ public class Login {
         Boolean result = getResult(sysUser);
         //处理结果，就是判断返回结果是否符合预期
         assertEquals(result,Boolean.TRUE);
-
+        //testsssss
      }
 
 
