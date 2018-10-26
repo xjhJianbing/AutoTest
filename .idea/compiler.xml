@@ -13,7 +13,7 @@
       <module name="Chapter10" target="1.8" />
       <module name="Chapter5" target="1.5" />
       <module name="Chapter6" target="6" />
-      <module name="T" target="1.5" />
+      <module name="T" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>
