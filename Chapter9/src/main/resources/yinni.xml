@@ -5,7 +5,7 @@
         <classes>
             <class name="com.couse.httpclient.cases.yinni.Login">
                 <methods>
-                    <include name="loginFalse"/>
+                    <!--<include name="loginFalse"/>-->
                     <include name="loginSuccess"/>
                 </methods>
             </class>
